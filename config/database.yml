@@ -12,3 +12,9 @@ test:
   host: postgres
   username: postgres
   database: test_app_test
+
+production: 
+  <<: *development
+
+
+
